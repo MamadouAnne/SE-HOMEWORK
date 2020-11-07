@@ -19,12 +19,8 @@ body {
     
 }
 
-h2, h3{
-	color: #62a3e3;
-	
-}
-
 h2 {
+    color: #62a3e3;
 	font-size: 40px;
     margin-bottom: 20px;
     text-decoration: underline;
@@ -32,6 +28,7 @@ h2 {
 }
 
 h3 {
+    color: #62a3e3;
 	font-size: 25px;
     margin-bottom: 10px;
 
@@ -44,9 +41,6 @@ h3 {
     line-height: 130%;
 }
 
-.main-text{
-    text-align: justify;
-}
 a {
     color: purple;
 }
@@ -59,6 +53,10 @@ a {
    
 }
 
+img {
+     height: 500px;
+     width: auto;
+ }
 
 .div3 {
     width: 75%;
@@ -68,11 +66,6 @@ a {
     width: 75%;
     position: relative;
     
-}
-
-img {
-    height: 500px;
-    width: auto;
 }
 
 .div1 nav {
