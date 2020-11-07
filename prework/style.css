@@ -4,9 +4,6 @@ html {
     padding: 20px;
   box-sizing: border-box
 }
-*, *::before, *::after {
-  box-sizing: inherit
-}
 
 * {
     margin: 0;
@@ -17,7 +14,7 @@ html {
 
 body {
 	font font-family: Helvetica Neue, Arial;
-	ont-size: 18px;
+	font-size: 18px;
     background-color: azure;
     
 }
@@ -54,23 +51,8 @@ a {
     color: purple;
 }
 
-
-form {
-    padding: 15px;
-    background-color: white;
-    font-style: italic;
-    border-style: solid;
-    font-weight: 900px;
-}
-
-input[type=button]:hover {
-    color: black;
-    background-color: rgb(0,200,0);
-    padding: 5px;
-}
-
 .container {
-    width: 1140px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin: 20px auto 0 auto;
@@ -93,7 +75,7 @@ img {
     width: auto;
 }
 
-.div1 nav: hover {
+.div1 nav {
     text-decoration: none;
     color: skyblue;
     font-weight: bold;
@@ -104,9 +86,63 @@ img {
     color: white;
 }
 
+
+.div3 {
+    width: 75%;
+    
+}
+
+.first p {
+	text-align: left;
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.para{
+    text-align: justify;
+}
+a {
+    color: purple;
+}
+
+
+input[type=button]:hover {
+    color: black;
+    background-color: rgb(0,200,0);
+    padding: 5px;
+}
+
+.content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto 0 auto;
+    position: relative;
+   
+}
+
+
 .date {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0px;
 }
+
+form {
+    padding: 15px;
+    background-color: white;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 900px;
+}
+
+.content nav {
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+}
+
+
+
 
