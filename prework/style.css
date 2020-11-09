@@ -2,20 +2,25 @@
 html {
     margin-top: 30px;
     padding: 20px;
-  box-sizing: border-box
+    box-sizing: border-box
+    
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: soloid blue;
     
 }
 
 body {
-	font font-family: Helvetica Neue, Arial;
-	font-size: 18px;
-    background-color: azure;
+	 font font-family: Helvetica Neue, Arial;
+	 font-size: 18px;
+     background-color: azure;
+     box-sizing: border-box;
+     border: solid #62a3e3; 
+     
     
 }
 
@@ -115,6 +120,7 @@ input[type=button]:hover {
     position: absolute;
     top: 0;
     right: 0px;
+    color: #62a3e3;
 }
 
 form {
@@ -123,11 +129,12 @@ form {
     font-style: italic;
     border-style: solid;
     font-weight: 900px;
+    color: #62a3e3;
 }
 
-.content nav {
+nav {
     text-decoration: none;
-    color: skyblue;
+    color: #62a3e3;
     font-weight: bold;
 }
 
